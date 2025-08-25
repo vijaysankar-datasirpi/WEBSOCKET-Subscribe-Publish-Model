@@ -129,7 +129,7 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_rabbitmq.core.RabbitmqChannelLayer",
         "CONFIG": {
-            "host": "amqp://guest:guest@localhost:5672/",  # default RabbitMQ URL
+            "host": "amqp://guest:guest@localhost:5672/",
         },
     },
 }
